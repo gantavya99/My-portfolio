@@ -1,18 +1,59 @@
-body{
-    color:red
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+:root{
+    --primary-color:#60A5FA;
 }
-h1{
-    color: blue;
+body{
+    font-family: 'Raleway', sans-serif;
     
 }
-h3{
-    color: green;
+/*container styling*/
+.container{
+  max-width: 600px;
+  margin:auto;
+}
+.fluid-container{
+    padding-left:1rem;
+    padding-right:1rem;
 }
 
-#lib-header{
-    color: mediumaquamarine
-    ;
+.primary-link{
+    background-color:var(--primary-color);
+    border-radius: 0.7rem;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    color: white;
 }
-.para{
-    color:yellowgreen;
+hr{
+    margin: 2rem 0rem;
+    color: aquamarine;
 }
+.list-non-bullet{
+    list-style: none;
+}
+.list-item-inline{
+    display: inline;
+    padding:0rem 0.5rem;
+}
+.navigation-container{
+    border-bottom-left-radius: 1rem;
+    background:var(--primary-color)
+    
+      
+}
+.navigation-container .nav-pills{
+    text-align: right;
+    
+}
+.new-link{
+    color: white;
+    text-decoration: none;
+}
+.nav-brand{
+    font-weight: bold;
+    padding: 1rem;
+    
+}
+.navigation-container .link-active{
+    font-weight:bold;
+}
+

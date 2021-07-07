@@ -18,20 +18,21 @@
         This is free flowing and wrap at the end like a paragraph. </p>
     <h2>@container</h2>
     <h3>fluid container</h3>
-    <div class="para">
+    <div class="fluid-container">
         This is a fluid container (div) and will go till the end of the page
     </div>
     <br>
-    <p> You can add a break between two lines using < br > tag</p>
+    <p class="fluid-container"> You can add a break between two lines using < br > tag</p>
     <h3>centred container</h3>
-    <div class="para">
+    <div class="container">
         This is a centred container and it will go till the page.
     </div>
     <h2> @Links</h2>
-    <a href="https://gantavyasaraswat.netlify.app/">Portfolio Link</a>
-    <a href="https://www.geeksforgeeks.org/">Geeks for Geeks</a>
+    <a class="primary-link" href="https://gantavyasaraswat.netlify.app/" target="_blank">Portfolio Link</a>
+    <a class="primary-link" href="https://www.geeksforgeeks.org/" target="_blank">Geeks for Geeks</a>
+    <hr>
     <h2>@lists</h2>
-    <ul>
+    <ul class="list-non-bullet">
         <h3 >unordered Lists</h3>
         <li>
             Item1
@@ -39,14 +40,33 @@
         <li>Item2</li>
         <li>Item3</li>
     </ul>
-    <ol>
+    <ol \>
         <h3>ordered Lists</h3>
         <li>Aaloo</li>
         <li>tamatar</li>
         <li>Bhindi</li> 
     </ol>
     <hr>
-    <h3>header</h3>
-    <img width="500" src="file:///C:/Users/ganta_/Downloads/undraw_Code_thinking_re_gka2.svg"/>
-</body>
+    <h2>@nav</h2>
+    <nav class="navigation-container">
+        <div class="nav-brand">
+            iAmBrand
+        </div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline" >
+                <a class="new-link link-active" href="/">Home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="new-link" href="/">Products</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="new-link" href="/">About</a>
+            </li>
+        </ul>
+    </nav>
+    <h2>@header</h2>
+    <header class="hero">
+        <img class="hero-image" src="image.svg">
+        <h1 class="hero-heading">heading inside header</h1>
+    </header>
 </html>
