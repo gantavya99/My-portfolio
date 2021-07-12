@@ -87,4 +87,17 @@ hr{
 .section-text{
     padding: bottom 1rem;
 }
+.footer{
+    background-color: black;
+    border-radius: 0.5rem;
+    padding:2rem 1rem;
+}
+.footer-header{
+    margin-left: 1rem;
+    color: whitesmoke;
+}
+.list-item-footer{
+    text-decoration: none;
+    
+}
 
