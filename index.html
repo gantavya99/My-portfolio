@@ -4,93 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Library</title>
+    <title>Document</title>
     <link href="styles.css" rel="stylesheet";
 </head>
 <body>
-    <h1> Saraswat's component library</h1> 
-    <hr/>
-    <h2>@Typography</h2>
-
-    <h1 id = "lib-header">This is the biggest heading</h1>
-    <h2>This is the second biggest heading</h2>
-    <p class="para" >This is how you type a normal text in html.
-        This is free flowing and wrap at the end like a paragraph. </p>
-    <h2>@container</h2>
-    <h3>fluid container</h3>
-    <div class="fluid-container">
-        This is a fluid container (div) and will go till the end of the page
-    </div>
-    <br>
-    <p class="fluid-container"> You can add a break between two lines using < br > tag</p>
-    <h3>centred container</h3>
-    <div class="container">
-        This is a centred container and it will go till the page.
-    </div>
-    <h2> @Links</h2>
-    <a class="primary-link" href="https://gantavyasaraswat.netlify.app/" target="_blank">Portfolio Link</a>
-    <a class="primary-link" href="https://www.geeksforgeeks.org/" target="_blank">Geeks for Geeks</a>
-    <hr>
-    <h2>@lists</h2>
-    <ul class="list-non-bullet">
-        <h3 >unordered Lists</h3>
-        <li>
-            Item1
-        </li>
-        <li>Item2</li>
-        <li>Item3</li>
-    </ul>
-    <ol \>
-        <h3>ordered Lists</h3>
-        <li>Aaloo</li>
-        <li>tamatar</li>
-        <li>Bhindi</li> 
-    </ol>
-    <hr>
-    <h2>@nav</h2>
     <nav class="navigation-container">
-        <div class="nav-brand">
-            iAmBrand
+        <div style="color: lightgray;" class="nav-brand">
+            redWrist
         </div>
         <ul class="list-non-bullet nav-pills">
             <li class="list-item-inline" >
                 <a class="new-link link-active" href="/">Home</a>
             </li>
             <li class="list-item-inline">
-                <a class="new-link" href="/">Products</a>
+                <a class="new-link" href="projects.html">Projects</a>
             </li>
             <li class="list-item-inline">
-                <a class="new-link" href="/">About</a>
+                <a class="new-link" href="blogs.html">Blogs</a>
             </li>
         </ul>
     </nav>
-    <hr>
-    <h2>@header</h2>
     <header class="hero">
-        <img class="hero-image" src="image.svg">
-        <h1 class="hero-heading">heading inside header</h1>
+        <img class="hero-image" src="/image1.svg">
+        <h1 class="hero-heading">Hi I am Gantavya Saraswat, an Android Developer</h1>
     </header>
-    <hr>
-    <h2>@section</h2>
+    <section class="section ow">
+        <h3>Technologies</h3>
+        <p class="section-text"> </b>I am familiar with HTML, CSS, Java, XML, Javascript, Android Studio, React Native, Node js, and web hosting</b></p>
+    </section>
     <section class="section">
-        <h3>white section</h3>
-        <p class="section-text">This will have white background</p>
+        <h3>Projects</h3>
+        <p class="section-text"> </b>I like to showcase my work and thus, you can see my projects online here</b></p>
+        <a class="primary-link" href="https://gantavyasaraswat.netlify.app/" target="_blank">View Projects</a>
     </section>
-     <section class="section ow">
-        <h3>off white section</h3>
-        <p class="section-text">This will have off white background</p>
+    <section class="section ow">
+        <h3>Blogs</h3>
+        <p class="section-text"> </b>In my free time, I like to work on some technology related blogs</b></p>
+        <a class="primary-link" href="https://www.geeksforgeeks.org/" target="_blank">Read Blogs</a>
     </section>
-    <hr>
+    <br>
+    <br>
     <footer class="footer">
         <div class="footer-header" >
-            Some small heading inside footer
+            Internet presence
         </div>
-        <ul class="social-links">
-            <li class="list-item-inline"><a href="/" target="_blank">Social One</a> </li>
-            <li class="list-item-inline"><a href="/" target="_blank">Social Two</a> </li>
-            <li class="list-item-inline"><a href="/" target="_blank">Social Three</a> </li>
+       <ul class="social-links list-non-bullet ">
+            <li style="display: inline-block;align-items: center;padding-right: 3rem;"><a style="text-decoration: none; color: white;" href="https://github.com/gantavya99" target="_blank">Github</a> </li>
+            <li style="display: inline-block;align-items: center;padding-right: 3rem;"><a style="text-decoration: none;color:white" href="https://twitter.com/gantavya99" target="_blank">Twitter</a> </li>
+            <li style="display: inline-block;align-items: center;padding-right: 3rem;"><a style="text-decoration: none;color:white" href="https://www.linkedin.com/in/gantavya99/" target="_blank">Linkedin</a> </li>
            
         </ul>
+        
     </footer>
-    </body>
+
+</body>
 </html>

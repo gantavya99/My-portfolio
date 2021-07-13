@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 :root{
-    --primary-color:#60A5FA;
+    --primary-color:#9D174D;
     --secondary-color:#a9a9a9;
     --off-white-colour:#E5E7EB;
 }
@@ -24,6 +24,7 @@ body{
     text-decoration: none;
     padding: 0.5rem 1rem;
     color: white;
+    
 }
 hr{
     margin: 2rem 0rem;
@@ -33,7 +34,7 @@ hr{
     list-style: none;
 }
 .list-item-inline{
-    display: inline;
+    display: inline-block;
     padding:0rem 0.5rem;
 }
 .navigation-container{
@@ -74,6 +75,10 @@ hr{
 }
 .section{
     padding:2rem;
+    text-align: center;
+    padding-bottom: 2rem;
+    
+    
 }
 .section h3{
     text-align: center;
@@ -83,20 +88,27 @@ hr{
 .ow{
     background-color:#E5E7EB ;
     border-radius: 1rem;
+    
 }
 .section-text{
     padding: bottom 1rem;
+    
+    
 }
 .footer{
-    background-color:var(--secondary-color);
-    border-radius: 0.5rem;
+    background-color:var(--primary-color);
+    border-top-right-radius: 1rem;
     padding:2rem 1rem;
+    text-align: center;
 }
 .footer-header{
+    font-weight: bold;
+    font-size: large;
     margin-left: 1rem;
     color: whitesmoke;
 }
-.list-item-inline{
-    text-decoration: none;
+.footer-link{
+    color:white;
 }
+
 
