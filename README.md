@@ -1,3 +1,2 @@
-# Component-Library
-Component library for neoG camp lecture 3
-A sample component library for neoG bootcamp.
+
+Welcome to my portfolio website. This is made using HTML and CSS and hosted using netlify.
