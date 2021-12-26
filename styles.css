@@ -61,11 +61,11 @@ hr{
     font-weight:bold;
 }
 .hero{
-    padding:2rem;
+    padding:4rem;
 }
 .hero-image{
     
-   max-width: 350px;
+   max-width: 450px;
    display: block;
    margin: auto;
 }
